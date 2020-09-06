@@ -1,0 +1,196 @@
+/*Shaquille Thomas 1504471*/
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+
+  .wrapper {
+    max-width: 90%;
+  }
+  
+  header {
+    width: 100%;
+  }
+  
+  nav, section {
+    float: left;
+  }
+
+  nav {
+    width: 20.83333%;
+    margin-right: 1.041667%;
+  }
+
+  section {
+    width: 78.125%;
+	height: 78.125%; 
+  }
+  
+}
+/*The header, navigation and main content elements of the webpage are grouped */
+
+@media screen and (min-width: 1000px) {
+
+  .wrapper {
+    max-width: 66.66667%;
+  }
+  
+  
+}
+/* CSS to make the website have a responsive design */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*Resizing of boxes to help with responsive layout*/
+
+body {
+  background: khaki;
+  color: black;
+  font-family: Times New Roman;
+  text-align: center;
+  margin: 0;
+}
+/*Formatting of content in the body of the page*/
+
+header,
+nav,
+section {
+  margin-bottom: 5%;
+  border-radius: 3px;
+}
+
+header {
+  padding: 15px 0;
+}
+
+section {
+  padding: 0px 0;
+}
+nav{
+	padding: 15px 0;
+
+}
+/*Margin bottom and padding set for these elements*/
+
+nav ul{
+		list-style-type:none;
+		left:0;
+		margin:0;
+		margin-right:40%;
+		padding: 0;
+		background-color: darkkhaki;
+		font-family:Agency FB;
+		font-size:120%;
+}
+/*Formatting of the navigation bar*/
+
+nav ul li a{
+		display:block;
+		width: 160px;
+		padding:10px;
+		background-color: darkkhaki;
+		text-decoration:none;
+		font-size:120%;
+		border-bottom: 1px solid black;
+}
+
+nav ul li a:link, nav ul li a:visited {
+        display: block;
+        width: 160px;
+        background-color: darkkhaki;
+        text-decoration: none;
+        font-weight: bold;
+		font-family:Agency FB;
+		color:black;
+        padding: 10px;
+		border-bottom: 1px solid black;
+}
+
+nav ul li a:hover, nav ul li a:active {
+        background-color: #9e9947;
+}
+/*Formatting of navigation bar when hovered over with the cursor. Shadow effect created using darker background colour*/
+
+body ul li{
+	text-align:left;
+}
+/*Text alignment for the bullet points in the body of the homepage*/
+
+h1 {
+	text-decoration:underline;
+	font-family:"Times New Roman", Times, serif;
+	font-size:80px;
+}
+/*Font for main heading*/ 
+
+br {
+    line-height: 150%;
+}
+/*Increase size of line break*/
+
+section ul li, section p {
+	font-size:150%;
+}
+/*Increase font size of main information in paragraph and bullet points*/
+
+h2{
+	font-size:40px;
+}
+/*Increase font size of heading*/
+
+section img{
+	width:200px;
+	height:200px;
+}
+/*Formatting the dimensions of images in the main content of the pages*/
+
+section p b{
+	font-size:40px;
+}
+
+.profile-image {
+	display: table;
+	width: 700px;
+	margin: 0 auto;
+}
+/*Table created to contain both the social media logo and information*/
+
+.profile-image img {
+	display: table-cell;
+	padding: 0;
+	margin: 0 10px 0 0;
+}
+/*Logos formatted to be placed in the table*/	
+
+.profile-image p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 5px;
+	margin: 0;
+	max-width: 250px;
+}
+/*Text inside table placed beside image*/
+
+.footer {
+  background:darkkhaki;
+    color:black;
+    position: static; 
+    left: 0;
+    bottom: -700px;
+    height: 60px;
+    width: 100%;
+    overflow:hidden;
+    margin: 0;
+    padding: 0 1em;
+    border-top: 3px solid #292929;
+	font-size:90%;
+}
+/*Container for the footer is created and formatted*/
+
